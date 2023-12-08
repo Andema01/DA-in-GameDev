@@ -83,7 +83,7 @@
 |Уровень 9| 12 | 1,2 | 14 | 0,03 |
 |Уровень 10| 14 | 1,1 | 14,5 | 0,035 |
 
-![[ComplexityOfLevels.png]]
+![ComplexityOfLevels](ComplexityOfLevels.png)
 
 ## Задание 3
 
@@ -124,7 +124,7 @@ sheet.update([df.columns.values.tolist()] + df.values.tolist())
 print("Данные успешно загружены в Google Sheets.")
 ```
 
-![[table.png]]
+![table](table.png)
 
 Скрипт для создания графика изменения сложности уровня 
 ```py
@@ -161,7 +161,7 @@ plt.grid(True)
 plt.show()
 ```
 
-![[ComplexityChange.png]]
+![ComplexityChange](ComplexityChange.png)
 
 Скрипт для создания графика сложности уровней, который был представлен в Задании 2.
 ```py
